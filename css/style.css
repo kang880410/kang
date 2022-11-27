@@ -1,0 +1,101 @@
+@import url('./animate.css');
+@import url('./Photogallery.css');
+@import url('./bootstrap.min.css');
+@import url('./bootstrap-grid.min.css');
+
+
+
+ /* 主標題背景 */
+.title {
+    text-align: center;
+    padding: 50px;
+    background: #f8f9fa;
+  }
+
+ /* 主標題 */
+ .Btitle{
+    color: #646464;
+    text-decoration: none;
+    font-size: 41px;
+  }
+  .Btitle:hover{
+    color: #646464;
+  }
+  /* 導覽列間距 */
+  .navbar.navbar-expand-lg.bg-light{
+    padding-bottom: 70px ;
+  }
+  .nav-item {
+    padding: 0 30px;
+  }
+
+ /* 圖片間距 */
+  img {
+    padding: 5px !important;
+  }
+  /* 副標題 */
+  .secTitle{
+    text-align: center;
+    padding-bottom: 60px;
+    padding-top: 60px;
+  }
+  /* back-to-top */
+  .back-to-top{
+    text-align: center;
+    margin: 120px 0 0 0 ;
+  }
+  .back-to-top a {
+    color: #777;
+    text-decoration: none;
+  }
+
+  body{
+    color: #000;
+  }
+  section{
+    display: inline-block;
+    width: 100%;
+  }
+   /* 淡入動畫秒數 */
+  .animate__animated.animate__fadeIn {
+    --animate-duration: 5s;
+  }
+     /* 資訊頁 */
+  footer{
+    margin: 100px 0 100px 0;
+    text-align: center;
+  }
+  footer a{
+    color: #fff;
+  }
+  footer a:hover{
+    color: #fff;
+  }
+  footer svg{
+    fill: #e0e0e0;
+    margin: 0 10px;
+    height: 30px;
+    transition: all 0.5s;
+  }
+  footer svg:hover{
+    transition: all 0.5s;
+    fill: #ababab;
+    margin: 0 10px;
+    height: 30px;
+  }
+    /* Contact */
+  .submitBtn{
+    border: 1px solid  rgb(187, 187, 187);;
+  }
+  .submitBtn:hover{
+    border: 1px solid  rgb(58, 58, 58);
+  }
+
+  @media screen and (max-width:768px) {
+    .title {
+      display: none;
+      }
+      .navbar.navbar-expand-lg.bg-light{
+        padding-bottom: 10px ;
+      }
+  }
